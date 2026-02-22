@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS Button PROJECT</title>
+
+<style>
+body{
+    text-align:center;
+    font-family:Arial;
+    background:#f2f2f2;
+    margin-top:100px;
+}
+
+h1{
+    font-size:50px;
+}
+
+button{
+    padding:12px 20px;
+    margin:10px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.plus{background:green;color:white;}
+.minus{background:red;color:white;}
+.odd{background:orange;color:white;}
+.even{background:blue;color:white;}
+</style>
+
+</head>
+
+<body>
+<div style="background-color: greenyellow;  width: 200px ; margin:auto">
+    <h1 id="adding">0</h1>
+</div>
+
+<div style="background-color: brown; width: 200px; margin:auto">
+<button class="plus" onclick="increment()"> + </button>
+<br>
+<button class="minus" onclick="decrement()"> - </button>
+<hr>
+<button class="odd" onclick="oddIncrement()"> Odd </button>
+<button class="even" onclick="evenIncrement()"> Even </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
