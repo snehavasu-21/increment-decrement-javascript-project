@@ -1,7 +1,7 @@
 let count = 0;
 
 function update(){
-    document.getElementById("adding").innerText = count;
+    document.getElementById("count").innerText = count;
 }
 
 function increment(){
