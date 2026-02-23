@@ -16,7 +16,16 @@ function decrement(){
 
 function oddIncrement(){
     if(count % 2 !== 0){
-        count++;
+        count+=2;
+        update();
+    }else{
+        alert("Number is not Odd");
+    }
+}
+
+function odddecrement(){
+    if(count % 2 !== 0){
+        count-=2;
         update();
     }else{
         alert("Number is not Odd");
@@ -25,7 +34,16 @@ function oddIncrement(){
 
 function evenIncrement(){
     if(count % 2 === 0){
-        count++;
+        count+=2;
+        update();
+    }else{
+        alert("Number is not Even");
+    }
+}
+
+function evendecrement(){
+    if(count % 2 === 0){
+        count-=2;
         update();
     }else{
         alert("Number is not Even");
